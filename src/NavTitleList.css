@@ -1,0 +1,17 @@
+ul>li {
+    width: 125px;
+    display: block;
+    float: left;
+    padding: 20px;
+    border:  white solid 0.1px;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 20px;
+    background-image:linear-gradient(rgba(128, 128, 128, 0.753),transparent);
+    color: white;
+}
+
+ul>li:hover {
+    border-bottom: white solid 2px;
+    background-color: gray
+}
