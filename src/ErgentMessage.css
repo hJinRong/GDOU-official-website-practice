@@ -1,0 +1,33 @@
+.MessageContainer {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(252, 116, 116);
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+
+}
+
+.titleContainer {
+    flex-grow: 1;
+    line-height: 40px;
+    text-align: center;
+}
+
+.titleContainer>span>a {
+    color: white;
+    text-decoration: none;
+}
+
+.closeTheTip {
+    display: block;
+    float: right;
+    height: 40px;
+    width: 40px;
+    z-index: 2;
+}
+
+.closeTheTip>img {
+    width: 100%;
+    height: 100%;
+}

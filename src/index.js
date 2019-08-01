@@ -3,8 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import NavTitleList from './NavTitleList'
 import * as serviceWorker from './serviceWorker';
+import ErgentMessage from './ErgentMessage';
+import SlideShow from './SlideShow/SlideShow'
+import FirstLetter from './SlideShow/FirstLetter'
 
-ReactDOM.render(<NavTitleList />, document.getElementById('root'));
+ReactDOM.render(<SlideShow />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
